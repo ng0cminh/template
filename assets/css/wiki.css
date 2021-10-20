@@ -8,8 +8,8 @@
 }
 .wiki .content {
   background-color: var(--white-color);
-  margin-left: -999px;
-  padding-left: 999px;
+  margin-left: -9999px;
+  padding-left: 9999px;
   padding-right: 30px;
   margin-right: 0px;
 }
@@ -40,10 +40,7 @@
   padding-top: 25px;
 }
 .wiki .sidebar {
-  background-color: rgb(247, 247, 247);
   border-left: 1px solid rgb(236, 236, 236);
-  margin-right: -999px;
-  padding-right: 999px;
 }
 .wiki .sidebar ul {
   margin: 0px;
