@@ -140,16 +140,19 @@
 }
 @media (max-width: 740px) {
   .wiki .content {
+    display: none;
     margin-left: 0px;
     margin-right: 0px;
     padding-left: 15px;
     padding-right: 15px;
   }
-
+  .wiki .content.show {
+    display: block;
+  }
   .wiki .sidebar {
     display: none;
     margin: 0px;
-    padding: 0px;
+    padding: 0px 15px;
     position: fixed;
     z-index: 99999999;
     top: 0px;

@@ -36,10 +36,12 @@ mainSeachClose.onclick = (e) => {
   mainMenuSeach.classList.add("show");
 };
 
+const content = $(".content");
 const sidebar = $(".sidebar");
 const tableContent = $(".table-content");
 
 tableContent.onclick = (e) => {
+  content.classList.toggle("show");
   sidebar.classList.toggle("show");
   tableContent.classList.toggle("show");
 };
