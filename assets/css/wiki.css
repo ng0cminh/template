@@ -143,8 +143,11 @@
     display: none;
     margin-left: 0px;
     margin-right: 0px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .wiki .wiki-content {
+    padding: 0 10px;
   }
   .wiki .content.show {
     display: block;
@@ -162,6 +165,9 @@
   }
   .wiki .sidebar.show {
     display: block;
+    overflow-y: auto;
+    margin: 0px;
+    padding: 0px;
   }
   .table-content {
     display: inline-block;
